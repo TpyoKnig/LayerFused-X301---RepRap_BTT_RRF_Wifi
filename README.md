@@ -10,6 +10,8 @@ Reboot the SKR and you'll be up and running with RepRap Firmware.
 
 If you want to use the 2.4in BTT LCD - place the files in lcd_sd to the root of an SD card and place it into the LCD. Noting that the LCD goes over the TFT connection and not the EXP1/EXP2 connection.
 
-* note that this is currently configured to use a BLTouch, you will need to edit config.g and change that if you are using an endstop. Documentation for the LPC RRF firmware is here: https://github.com/gloomyandy/RepRapFirmware/wiki , all of the config is done via GCode which are documented here: https://duet3d.dozuki.com/Wiki/Gcode 
-
 LCD firmware is from this repo: https://github.com/gloomyandy/RepRapFirmware/wiki/SKR-PanelDue 
+
+* note that this is currently configured to use a BLTouch, and dual Z by re-assigned E1 to Z2. You will need to edit config.g and the config.g if you are using an endstop or are not using an additional 5th driver. 
+
+Documentation for the LPC RRF firmware is here: https://github.com/gloomyandy/RepRapFirmware/wiki , all of the config is done via GCode's which are documented here: https://duet3d.dozuki.com/Wiki/Gcode 
