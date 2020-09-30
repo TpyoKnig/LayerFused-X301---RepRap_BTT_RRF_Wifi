@@ -1,6 +1,6 @@
 Copy the contents skr_sdcard to the root of your sdcard for the SKR after installing the BTT Wifi Card.
 
-Edit config.g with your WiFi SSID and password and remove the semicolon that is commenting that out. 
+Edit config.g within the /sys folder and insert your WiFi SSID and password and remove the semicolon that is commenting that out. 
 
 Reboot the SKR and you'll be up and running with RepRap Firmware.
 
